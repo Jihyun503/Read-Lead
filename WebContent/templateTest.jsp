@@ -4,12 +4,12 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Template 페이지</title>
+<title>Read, Lead</title>
 <style>
-	#a 
+	#b 
 	{
 		background-image:url('image/bg.jpg');
-		background-size: 800px;
+		background-size: 1650px;
 	}
 </style>
 </head>
@@ -20,14 +20,14 @@
 
 %>
 <center>
-<table width="800" height="470" cellpadding="2" cellspacing="0" id="a">
-<tr height="95">
-	<td colspan=3 id="a">
+<table width="1650" height="650" border="1" cellpadding="2" cellspacing="0" id="b">
+<tr height="200">
+	<td colspan=3>
 		<jsp:include page="top.jsp" flush="false"/>
 	</td>
 </tr>
 
-<tr height ="330">
+<tr height ="700">
 	<td width="350" valign="top">
 		<jsp:include page="<%= contentPage %>" flush="false"/>
 	</td>

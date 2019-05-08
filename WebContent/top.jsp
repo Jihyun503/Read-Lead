@@ -1,5 +1,12 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<pre style="font-family:맑은고딕;">
-						    		  	   	      <a href="main.jsp">[메인]</a></pre> 
-| <a href="#">[회사소개]</a> | <a href="#">[제품소개]</a> | <a href="photo.jsp">[윤두준]</a>
+<style>
+#a
+{
+	  margin-left:90px;  
+}
+</style>
+<div><a href="main.jsp" id="a"><img src="image/logo.png" width="80"></img></a> 
+<a href="photo.jsp" id="a">[윤두준]</a>
+<a href="review.jsp" id="a">리뷰보기</a>
+<a href="book.jsp" id="a">책소개</a></div>
