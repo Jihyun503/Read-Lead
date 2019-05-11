@@ -57,12 +57,8 @@
 				<%= str3 %>
 				</td>
 			<tr>
-			<tr>
-				<td>
-					<input type="button" onclick="location.href='review.jsp'" value="돌아가기"></button>
-				</td>
-			</tr>
 		</table>
+		<input type="button" onclick="location.href='review.jsp'" value="돌아가기"></button>
 </center>
 </body>
 </html>

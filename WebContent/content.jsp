@@ -3,19 +3,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
+<style>/* 
 p {
 	text-align: center;
 	padding: 100px 0px;
-}
+} */
 </style>
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
-<p>
-<br>
-[Read, Lead]
-</p>
-</body>
+<center>
+<div><img src="image/main.jpg"></div>
+</center>
+<body>
 </html>

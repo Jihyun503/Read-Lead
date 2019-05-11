@@ -6,16 +6,13 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
 <style>
-body
-{
-	background-image:url('momo.jpg');
-}
 </style>
 </head>
 <body>
 <center>
-<img src="image/momo.jpg"><br>
-<h3>모모를 아시나요?</h3>
+<br>
+<img src="image/momo.jpg"><br><br>
+<img src="image/momomo3.png">
 </center>
 </body>
 </html>

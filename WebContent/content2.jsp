@@ -13,8 +13,8 @@ p {
 <title>Insert title here</title>
 </head>
 <body>
-<p>
-콘텐츠 2
-</p>
+<center>
+<div><img src="image/main2.jpg"></div>
+</center>
 </body>
 </html>

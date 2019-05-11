@@ -5,16 +5,28 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
+
 </head>
 <body>
 <center>
-<h2>책 리뷰 작성</h2>
-<form action="review2Proc.jsp" method="post">
-이름 : <input type="text" name="name"> <br>
-제목 : <input type="text" name="title"> <br>
-<textarea rows="10" cols="40" name="content"></textarea> <br>
-<input type="submit" value="작성">
+<img src="image/review2.png"><br><br>
 
+<form action="review2Proc.jsp" method="post">
+<table border="1">
+<tr>
+	<td>제목 : </td> 
+	<td><input type="text" name="name"> </td>
+</tr>
+<tr>
+	<td>이름 : </td>
+	<td><input type="text" name="title"> </td>
+</tr>
+<tr>
+<td colspan="2"><textarea rows="10" cols="40" name="content"></textarea> </td>
+</tr>
+</table>
+<br>
+<input type="submit" value="작성">
 </form>
 </center>
 </body>
