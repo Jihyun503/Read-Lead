@@ -1,12 +1,52 @@
+<%@page import="java.io.PrintWriter"%>
+<%@page import="java.util.Date"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
-review2Proc.jsp
+
+<%
+	request.setCharacterEncoding("UTF-8");
+	String name = request.getParameter("name");
+	String title = request.getParameter("title");
+	String content = request.getParameter("content");
+	
+	Date date = new Date();
+	Long time = date.getTime();
+	//out.println(time);
+	String filename = time + ".txt";
+	
+	PrintWriter writer = null;
+	String result;
+	
+	try{
+		String filePath = application.getRealPath("/WEB-INF/review/" + filename);
+		writer = new PrintWriter(filePath);
+		writer.printf("제목 : %s %n", title);
+		writer.printf("글쓴이 : %s %n", name);
+		writer.println(content);
+		
+		//out.println("<font color='red'>게시물</font>이 저장되었습니다.");
+		writer.flush(); //꼭 써줘야함
+		result="ok";
+
+	}
+	catch(Exception e){
+		out.println("오류발생");
+		result="fail";
+	}
+	finally{
+		writer.close();
+	}
+	
+	response.sendRedirect("reviewResult.jsp?result="+result);
+	
+%>
+
 </body>
 </html>

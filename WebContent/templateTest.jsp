@@ -17,6 +17,7 @@
 <%
 	String contentPage = request.getParameter("CONTENTPAGE");
 	String contentPage2 = request.getParameter("CONTENTPAGE2");
+	//String middle = request.getParameter("MIDDLE");
 
 %>
 <center>
@@ -32,7 +33,8 @@
 		<jsp:include page="<%= contentPage %>" flush="false"/>
 	</td>
 	<td width="100" valign="top">
-		<jsp:include page="middle.jsp" flush="false"/>
+<%-- 		<jsp:include page="<%= middle %>" flush="false"/>
+ --%>		<jsp:include page="middle.jsp" flush="false"/>
 	</td>
 	<td width="350" valign="top">
 		<jsp:include page="<%= contentPage2 %>" flush="false"/>

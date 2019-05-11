@@ -1,12 +1,33 @@
+<%@page import="java.io.File"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
+<%
+	String dirPath = application.getRealPath("/WEB-INF/review");
+	//out.println(dirPath);
+	File dir = new File(dirPath);
+	String fileNames[] = dir.list();
+	
+	/* for(int i=0; i<fileNames.length; i++){
+		out.println(fileNames[i] + "<br>");
+	} */
+%>
+<center>
+<h4>리뷰 목록</h4>
+<%
+	for(String filename : fileNames){ %>
+		<a href="reviewReader.jsp?NAME=<%= filename%>"><%= filename %></a><br>
+		
+<% 	}
 
+
+%>
+</center>
 </body>
 </html>
