@@ -20,6 +20,7 @@
 	String str1 = "";
 	String str2 = "";
 	String str3 = "";
+	int idx1, idx2;
 	try{
 		String filePath = application.getRealPath("/WEB-INF/review/" + filename);
 		reader = new BufferedReader(new FileReader(filePath));
@@ -39,12 +40,11 @@
 	finally{
 		reader.close();
 	}
+	idx1 = str1.indexOf(" ", 4);
+	str1 = str1.substring(idx1+1);
 	
-	int idx = str1.indexOf(" ", 4);
-	str1 = str1.substring(idx+1);
-	
-	idx = str2.indexOf(" ",5);
-	str2 = str2.substring(idx+1);
+	idx2 = str2.indexOf(" ",5);
+	str2 = str2.substring(idx2+1);
 	
 %>
 <img src="image/review3.png"><br><br>

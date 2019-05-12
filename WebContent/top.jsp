@@ -40,7 +40,7 @@
                 <ul>
                         <li><a class="menuLink" href="main.jsp">Read, Lead</a></li>
                         <li><a class="menuLink" href="library.jsp">모모 만나기</a></li>
-                        <li><a class="menuLink" href="book.jsp">모모를 소개할게</a></li>
+                        <li><a class="menuLink" href="book.jsp">모모 소개</a></li>
                         <li><a class="menuLink" href="review.jsp">모모와 대화하기</a></li>
                         <li><a class="menuLink" href="photo.jsp">모모의 이야기</a></li>
                         <li><a class="menuLink" href="etc.jsp">모모 etc</a></li>

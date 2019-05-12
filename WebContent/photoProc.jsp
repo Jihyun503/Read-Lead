@@ -10,10 +10,12 @@
 <center>
 
 <div class="w3-content" style="max-width:800px;position:relative">
-<img class="mySlides" src="image/img_1.jpg">
-<img class="mySlides" src="image/img_2.jpg">
-<img class="mySlides" src="image/img_3.jpg">
-<img class="mySlides" src="image/img_4.jpg">
+<img class="mySlides" src="image/img1.jpg" width="450">
+<img class="mySlides" src="image/img2.jpg" width="450">
+<img class="mySlides" src="image/img3.jpg" width="450">
+<img class="mySlides" src="image/img4.jpg" width="450">
+<img class="mySlides" src="image/img5.jpg" width="450">
+<img class="mySlides" src="image/img6.jpg" width="450">
 <a class="w3-btn-floating" onclick="plusDivs(-1)">&#10094;</a>
 <a class="w3-btn-floating" onclick="plusDivs(+1)">&#10095;</a>
 </center>
