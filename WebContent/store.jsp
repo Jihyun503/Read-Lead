@@ -9,10 +9,11 @@
 <body>
 <center>
 <img src="image/lib2.png" style="magin-right:25px;"><br>
-<a href="http://www.yes24.com/Product/Goods/1263?scode=032&OzSrank=1"><img src="image/link1.png"></a><br>
-<a href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=191015">알라딘 구매처</a><br>
+<a href="http://www.yes24.com/Product/Goods/1263?scode=032&OzSrank=1" target="_blank"><img src="image/link1.png"></a><br>
+<a href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=191015" target="_blank"><img src="image/link2.png"></a><br>
 <a href="http://book.interpark.com/product/BookDisplay.do?_method=detail&sc.shopNo=0000400000&sc.prdNo=155069&sc.saNo=003002001&bid1=search&bid2=product&bid3=title&bid4=001
-">인터파크 구매처</a><br>
+" target="_blank"><img src="image/link3.png"></a><br>
+<a href="http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9788949190020&orderClick=LEA&Kc=" target="_blank"><img src="image/link4.png"></a>
 </center>
 </body>
 </html>

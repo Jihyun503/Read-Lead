@@ -12,17 +12,17 @@
 <img src="image/review2.png"><br><br>
 
 <form action="review2Proc.jsp" method="post">
-<table border="1">
+<table border="1" width="430" style="background:pink; text-align:center;">
 <tr>
-	<td>제목 : </td> 
+	<td bgcolor="white">제목 : </td> 
 	<td><input type="text" name="name"> </td>
 </tr>
 <tr>
-	<td>이름 : </td>
+	<td bgcolor="white">이름 : </td>
 	<td><input type="text" name="title"> </td>
 </tr>
 <tr>
-<td colspan="2"><textarea rows="10" cols="40" name="content"></textarea> </td>
+<td colspan="2"><textarea rows="10" cols="55" name="content"></textarea> </td>
 </tr>
 </table>
 <br>

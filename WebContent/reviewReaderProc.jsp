@@ -40,24 +40,34 @@
 		reader.close();
 	}
 	
+	int idx = str1.indexOf(" ", 4);
+	str1 = str1.substring(idx+1);
+	
+	idx = str2.indexOf(" ",5);
+	str2 = str2.substring(idx+1);
+	
 %>
-<table border="1">
-			<tr>
+<img src="image/review3.png"><br><br>
+<table border="1" style="text-align:center; background:pink;">
+			<tr bgcolor="white">
+				<td width="70">제목</td> 
+				<td width="170">
+				<%= str2 %>
+				</td>
+			</tr>
+			<tr bgcolor="white">
+				<td>글쓴이</td> 
 				<td>
 				<%= str1 %>
 				</td>
-			<tr>
-			<tr>
-				<td>
-				<%= str2 %>
-				</td>
-			<tr>
-			<tr>
-				<td>
+			</tr>
+			<tr bgcolor="white">
+				<td colspan="2" height="200">
 				<%= str3 %>
 				</td>
-			<tr>
+			</tr>
 		</table>
+		<br>
 		<input type="button" onclick="location.href='review.jsp'" value="돌아가기"></button>
 </center>
 </body>

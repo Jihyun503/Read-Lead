@@ -5,7 +5,7 @@
 	String str = request.getParameter("result");
 
 	if(str.equals("ok")){
-		out.println("<font color='red'>게시물</font>이 저장되었습니다.");
+		out.println("<font color='red'>리뷰</font>작성이 완료되었습니다.");
 	}
 	else{
 		out.println("파일에 데이터를 저장할 수 없습니다.");

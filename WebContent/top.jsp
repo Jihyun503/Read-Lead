@@ -4,23 +4,23 @@
 
 	  #topMenu {           
                         height: 30px; 
-                        width: 850px; 
+                        width: 1550px; 
                 }
                 #topMenu ul li {                       
                         list-style: none;           
                         color: white;               
-                        background-color: #2d2d2d;  
+                        background-color: rgba( 255, 255, 255, 0.5 );  
                         float: left;                
-                        line-height: 30px;          
+                        line-height: 70px;       
                         vertical-align: middle;     
                         text-align: center;         
                 }
                 #topMenu .menuLink {                               
                         text-decoration:none;                      
-                        color: white;                              
+                        color: gray;                              
                         display: block;                            
-                        width: 150px;                              
-                        font-size: 12px;                           
+                        width: 230px;                              
+                        font-size: 18px;                           
                         font-weight: bold;                         
                         font-family: "Trebuchet MS", Dotum, Arial; 
                 }

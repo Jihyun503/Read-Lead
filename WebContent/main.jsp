@@ -4,5 +4,4 @@
 	<jsp:param name="CONTENTPAGE" value="content.jsp"/>
 	<jsp:param name="CONTENTPAGE2" value="content2.jsp"/>
 	
-	
 </jsp:forward>
