@@ -8,7 +8,7 @@
       /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
       #map {
-        height: 525px;
+        height: 325px;
         margin: 30px;
         border-style: dotted;
         border-color: palevioletred;
@@ -33,7 +33,7 @@
 
         var map = new google.maps.Map(document.getElementById('map'), {
           center: lib1,
-          zoom: 11
+          zoom: 10
         });
         
         	var contentString1 = '<p><b>동대문정보화도서관</b>';

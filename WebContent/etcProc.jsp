@@ -5,14 +5,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
-<style>
-</style>
 </head>
 <body>
-<center>
-<br>
-<img src="image/momo.jpg" width="250"><br><br>
-<img src="image/momomo3.png" width="330">
-</center>
+etc
 </body>
 </html>

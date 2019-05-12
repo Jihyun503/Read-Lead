@@ -4,7 +4,7 @@
 
 	  #topMenu {           
                         height: 30px; 
-                        width: 1550px; 
+                        width: 1250px; 
                 }
                 #topMenu ul li {                       
                         list-style: none;           
@@ -19,8 +19,8 @@
                         text-decoration:none;                      
                         color: gray;                              
                         display: block;                            
-                        width: 230px;                              
-                        font-size: 18px;                           
+                        width: 130px;                              
+                        font-size: 15px;                           
                         font-weight: bold;                         
                         font-family: "Trebuchet MS", Dotum, Arial; 
                 }
@@ -43,6 +43,7 @@
                         <li><a class="menuLink" href="book.jsp">모모를 소개할게</a></li>
                         <li><a class="menuLink" href="review.jsp">모모와 대화하기</a></li>
                         <li><a class="menuLink" href="photo.jsp">모모의 이야기</a></li>
+                        <li><a class="menuLink" href="etc.jsp">모모 etc</a></li>
                 </ul>
         </nav>
 </center>

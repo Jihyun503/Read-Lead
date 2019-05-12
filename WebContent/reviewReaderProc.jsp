@@ -51,7 +51,7 @@
 <table border="1" style="text-align:center; background:pink;">
 			<tr bgcolor="white">
 				<td width="70">제목</td> 
-				<td width="170">
+				<td width="335">
 				<%= str2 %>
 				</td>
 			</tr>
@@ -68,7 +68,7 @@
 			</tr>
 		</table>
 		<br>
-		<input type="button" onclick="location.href='review.jsp'" value="돌아가기"></button>
+		<a href="review.jsp"><img src="image/back.png"></a>
 </center>
 </body>
 </html>

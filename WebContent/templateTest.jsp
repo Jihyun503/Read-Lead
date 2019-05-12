@@ -9,7 +9,7 @@
 	#b 
 	{
 		background-image:url('image/jspbg.jpg');
-		background-size: 1650px;
+		background-size: 1254px;
 	}
 </style>
 </head>
@@ -21,22 +21,22 @@
 
 %>
 <center>
-<table width="1650" height="939" cellpadding="2" cellspacing="0" id="b" border="1">
-<tr height="170">
+<table width="1040" height="712" cellpadding="2" cellspacing="0" id="b" border="0">
+<tr height="140">
 	<td colspan=3>
 		<jsp:include page="top.jsp" flush="false"/>
 	</td>
 </tr>
 
-<tr height ="710">
-	<td width="741" valign="top">
+<tr height ="530">
+	<td width="553" valign="top">
 		<jsp:include page="<%= contentPage %>" flush="false"/>
 	</td>
-	<td width="162" valign="top">
+	<td width="130" valign="top">
 <%-- 		<jsp:include page="<%= middle %>" flush="false"/>
  --%>		<jsp:include page="middle.jsp" flush="false"/>
 	</td>
-	<td width="737" valign="top">
+	<td valign="top">
 		<jsp:include page="<%= contentPage2 %>" flush="false"/>
 	</td>
 </tr>

@@ -18,9 +18,6 @@
 <a class="w3-btn-floating" onclick="plusDivs(+1)">&#10095;</a>
 </center>
 
-<a class="w3-btn-floating" style="position:absolute;top:45%;left:0" onclick="plusDivs(-1)">❮</a>
-<a class="w3-btn-floating" style="position:absolute;top:45%;right:0" onclick="plusDivs(1)">❯</a>
-
 </div>
 
 <script>

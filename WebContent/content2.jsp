@@ -14,7 +14,7 @@ p {
 </head>
 <body>
 <center>
-<div><img src="image/main2.jpg"></div>
+<div><img src="image/main2.jpg" width="480"></div>
 </center>
 </body>
 </html>

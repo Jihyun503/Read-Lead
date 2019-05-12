@@ -22,7 +22,7 @@
 <img src="image/review.png"><br><br>
 <%
 	for(String filename : fileNames){ %>
-		<a href="reviewReader.jsp?NAME=<%= filename%>"><%= filename %></a><hr style="width: 600px"><br>
+		<a href="reviewReader.jsp?NAME=<%= filename%>"><%= filename %></a><hr style="width: 400px"><br>
 		
 <% 	}
 

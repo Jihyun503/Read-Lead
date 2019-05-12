@@ -26,7 +26,7 @@
 </tr>
 </table>
 <br>
-<input type="submit" value="작성">
+<input type="image" src="image/ok.png">
 </form>
 </center>
 </body>
