@@ -5,28 +5,30 @@
 	  #topMenu {           
                         height: 30px; 
                         width: 1250px; 
+                        text-align: center;
                 }
                 #topMenu ul li {                       
                         list-style: none;           
                         color: white;               
                         background-color: rgba( 255, 255, 255, 0.5 );  
                         float: left;                
-                        line-height: 70px;       
+                        line-height: 50px;       
                         vertical-align: middle;     
-                        text-align: center;         
+                        text-align: center;
+                        display:inline-block;      
                 }
                 #topMenu .menuLink {                               
                         text-decoration:none;                      
                         color: gray;                              
                         display: block;                            
-                        width: 130px;                              
+                        width: 190px;                              
                         font-size: 15px;                           
                         font-weight: bold;                         
                         font-family: "Trebuchet MS", Dotum, Arial; 
                 }
                 #topMenu .menuLink:hover {            
-                        color: red;                   
-                        background-color: #4d4d4d;    
+                        color: orange;                   
+                        background-color: #160a3a;    
                 }
 }
 </style><!-- 
@@ -39,10 +41,10 @@
 <nav id="topMenu" >
                 <ul>
                         <li><a class="menuLink" href="main.jsp">Read, Lead</a></li>
-                        <li><a class="menuLink" href="library.jsp">모모 만나기</a></li>
                         <li><a class="menuLink" href="book.jsp">모모 소개</a></li>
-                        <li><a class="menuLink" href="review.jsp">모모와 대화하기</a></li>
                         <li><a class="menuLink" href="photo.jsp">모모의 이야기</a></li>
+                        <li><a class="menuLink" href="library.jsp">모모 만나기</a></li>
+                        <li><a class="menuLink" href="review.jsp">모모와 대화하기</a></li>
                         <li><a class="menuLink" href="etc.jsp">모모 etc</a></li>
                 </ul>
         </nav>

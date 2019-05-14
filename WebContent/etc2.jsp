@@ -7,6 +7,12 @@
 <title>Insert title here</title>
 </head>
 <body>
-etc2
+<center>
+<img src="image/movie.png"><br>
+<iframe width="500" height="350" src="https://www.youtube.com/embed/Jf4J66XSitw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div style="border:1px solid orange; width:400px; padding-right:10px;">
+<h4>책을 원작으로 한 영화 '모모' 예고편</h4>
+</div>
+</center>
 </body>
 </html>

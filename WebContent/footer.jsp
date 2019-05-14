@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-현재 리뷰 페이지입니다.
+Copyright(c)2019 by 이지현
 </body>
 </html>

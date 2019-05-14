@@ -16,8 +16,9 @@
 <img class="mySlides" src="image/img4.jpg" width="450">
 <img class="mySlides" src="image/img5.jpg" width="450">
 <img class="mySlides" src="image/img6.jpg" width="450">
-<a class="w3-btn-floating" onclick="plusDivs(-1)">&#10094;</a>
-<a class="w3-btn-floating" onclick="plusDivs(+1)">&#10095;</a>
+<br>
+<a class="w3-btn-floating" onclick="plusDivs(-1)"><img src="image/arrow1.png"></a>
+<a class="w3-btn-floating" onclick="plusDivs(+1)"><img src="image/arrow2.png"></a>
 </center>
 
 </div>
